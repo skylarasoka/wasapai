@@ -1,0 +1,6 @@
+# This file lists the dependencies required for the project.
+
+Flask==2.0.1
+openai==0.10.2
+twilio==6.63.0
+Flask-SQLAlchemy==2.5.1
