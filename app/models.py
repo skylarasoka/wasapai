@@ -9,4 +9,6 @@ class Message(db.Model):
     sender = db.Column(db.String(15), nullable=False)
     message = db.Column(db.Text, nullable=False)
     response = db.Column(db.Text, nullable=True)
-    timestamp = db.Column(db.DateTime, default=db.func.current_timestamp())
+    timestamp = db.Column(db.DateTime, 
+                          
+default=db.func.current_timestamp())
