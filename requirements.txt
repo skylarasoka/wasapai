@@ -1,7 +1,7 @@
 # This file lists the dependencies required for the project.
 
-Flask==2.0.1
+flask>=2.2.5
 openai==0.10.2
 twilio==6.63.0
 Flask-SQLAlchemy==3.0.3
-Werkzeug==2.2.2
+Werkzeug>=3.0.3
