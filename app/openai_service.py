@@ -3,7 +3,7 @@
 import openai
 from flask import current_app
 
-def get_openai_response(prompt);
+def get_openai_response(prompt):
     openai.api_key = current_app.config['OPENAI_API_KEY']
 
     # Generate a response from OpenAI based on the prompt.
